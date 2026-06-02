@@ -1,0 +1,27 @@
+{
+  "broker": "topstepx",
+
+  "username": "YOUR_TOPSTEPX_EMAIL",
+  "api_key": "YOUR_TOPSTEPX_API_KEY",
+  "account_name": "YOUR_ACCOUNT_NAME",
+
+  "account_type": "COMBINE",
+  "instrument": "MES",
+  "combine_risk": "750",
+  "combine_max_contracts": "50",
+  "xfa_base_risk": "750",
+  "live_base_risk": "750",
+  "historical_days": "5",
+  "historical_interval": "5",
+  "alert_email": "YOUR_ALERT_EMAIL",
+  "alert_smtp_pass": "YOUR_GMAIL_APP_PASSWORD",
+  "alert_on_trade": false,
+  "alert_on_emergency": true,
+  "alert_weekly_recap": true,
+  "data_dir": "~/PythonProjects/LiquidityBot",
+  "bot_dir": "~/PythonProjects/LiquidityBot",
+  "state_file": "risk_state.json",
+  "trades_file": "trades.csv",
+  "cumulative_pnl": 0,
+  "current_risk": 750
+}

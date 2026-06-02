@@ -1,0 +1,36 @@
+# ===== SECRETS — never commit =====
+# config.json contains API key + Gmail app password
+config.json
+.env
+*.key
+*.pem
+
+# ===== Personal / account data =====
+risk_state.json
+trades.csv
+ict_trades.jsonl
+
+# ===== Logs & forensic captures (large, contain account IDs/order IDs) =====
+*.log
+ict_bot.log
+logs/
+bars/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# ===== OS / editor =====
+.DS_Store
+.idea/
+.vscode/
+
+# ===== Node (dashboard) =====
+node_modules/
+
+# ===== Research outputs (large data dumps) =====
+research/outputs/*.json
