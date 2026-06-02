@@ -1,0 +1,8 @@
+# Core
+project_x_py        # TopstepX broker SDK (live data + order execution)
+pandas              # historical data loading for the backtester
+pytz                # timezone handling (America/Chicago session logic)
+
+# Optional — only needed for certain historical data formats in backtest_replay.py
+pyarrow             # read .parquet data files
+zstandard           # read .csv.zst (zstd-compressed) data files
