@@ -24,10 +24,11 @@ __pycache__/
 venv/
 .pytest_cache/
 
-# ===== OS / editor =====
+# ===== OS / editor / tooling =====
 .DS_Store
 .idea/
 .vscode/
+.claude/
 
 # ===== Node (dashboard) =====
 node_modules/
