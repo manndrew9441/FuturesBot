@@ -1,0 +1,12 @@
+{
+  "cumulative_pnl": 0,
+  "peak_pnl": 0,
+  "current_risk": 750,
+  "current_max_contracts": 50,
+  "total_trades": 0,
+  "total_wins": 0,
+  "daily_trade_count": 0,
+  "last_trade_date": null,
+  "last_updated": null,
+  "account_type": "COMBINE"
+}

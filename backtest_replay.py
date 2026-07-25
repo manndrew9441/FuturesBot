@@ -37,8 +37,7 @@ import pytz
 
 # Engine import — expects engine.py in same directory or on PYTHONPATH
 from engine import ICTEngine
-# V2/V3/V4 are archived (research showed no real-time edge — see archive/).
-# To restore: move desired engine_vN.py back to top level and add its import here.
+# V2/V3/V4 engine variants were removed (research showed no real-time edge).
 
 # =====================================================================
 # CONFIG
@@ -955,8 +954,8 @@ def main():
     parser.add_argument("--engine", choices=["v1"], default="v1",
                         help="Engine version. v1: original ICT engine. Backtest defaults to realistic "
                              "live-delivery bar ordering; pass --lookahead-mode to see the old biased "
-                             "numbers. v2/v3/v4 variants are archived after research showed no real-time "
-                             "edge — see archive/.")
+                             "numbers. v2/v3/v4 variants were removed after research showed no "
+                             "real-time edge.")
     args = parser.parse_args()
 
     if args.verbose:

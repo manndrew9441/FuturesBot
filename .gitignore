@@ -30,8 +30,5 @@ venv/
 .vscode/
 .claude/
 
-# ===== Node (dashboard) =====
-node_modules/
-
-# ===== Research outputs (large data dumps) =====
-research/outputs/*.json
+# ===== Generated backtest results (regenerate with backtest_replay.py) =====
+backtest_results_replay.json
